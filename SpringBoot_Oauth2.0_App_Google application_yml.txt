@@ -15,3 +15,17 @@ note: Open google auth platform -> create client ->Make it more carefully
 
 
 https://developers.google.com/identity/openid-connect/openid-connect 
+
+@Bean
+	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
+		
+		http.authorizeHttpRequests((auth)->{
+			
+			auth.anyRequest().authenticated();
+		}).formLogin(Customizer.withDefaults())
+		.oauth2Login(Customizer.withDefaults());
+		
+		
+		return http.build();
+
+	}
