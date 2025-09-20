@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: 19_SpringBoot_Oauth2.0_App_Google
+ 

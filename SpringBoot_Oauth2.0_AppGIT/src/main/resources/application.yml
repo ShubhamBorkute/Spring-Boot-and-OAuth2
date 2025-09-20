@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: 17_SpringBoot_Oauth2.0_App
