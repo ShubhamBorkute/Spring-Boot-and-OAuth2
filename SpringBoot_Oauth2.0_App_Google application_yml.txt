@@ -1,0 +1,17 @@
+  security:
+    user:
+      name: Your username
+      password: Your Password
+    oauth2:
+      client:
+        registration:
+          google:
+             clientId: Your Client ID
+             client-secret: Your Secret key
+
+
+
+note: Open google auth platform -> create client ->Make it more carefully
+
+
+https://developers.google.com/identity/openid-connect/openid-connect 

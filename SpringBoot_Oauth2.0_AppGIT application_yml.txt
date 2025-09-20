@@ -1,0 +1,12 @@
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+             clientId: Your Client is
+             client-secret: Your Secret-key
+
+
+note: git profile->setting->developer setting->OauthApps->New Oath App->Open Oauth App-> get client -is and client-secret
+
+"don't forget to add callback url" while creating Oauth app
